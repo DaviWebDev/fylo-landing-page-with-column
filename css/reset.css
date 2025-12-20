@@ -1,0 +1,62 @@
+/*Box model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajustes base do documento */
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Corpo */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Imagens e mídia */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Inputs herdam fonte */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Botões */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Listas */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
