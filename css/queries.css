@@ -167,7 +167,7 @@
     }
 
     .feature__curve {
-        background-image: url(/images/bg-curve-desktop.svg);
+        background-image: url(../images/bg-curve-desktop.svg);
         aspect-ratio: 1440 / 114;
         height: 114px;
     }
